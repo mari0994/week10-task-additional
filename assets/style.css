@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, p, button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    padding-top: 35px;
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+}
+
+.title{
+    font-weight: normal;
+}
+
+.product-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    row-gap: 15px;
+}
+
+.image{
+    max-width: 90%;
+}
+
+.descr{
+    font-size: 18px;
+}
+
+.price{
+    font-size: 14px;
+}
+
+.calculate{
+    width: 180px;
+    min-height: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: rgb(255, 150, 229);
+    border: none;
+    border-radius: 3px;
+}
+
+.calculate:hover{
+    background-color: rgb(255, 103, 217);
+}
